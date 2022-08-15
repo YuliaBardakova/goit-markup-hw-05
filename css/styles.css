@@ -134,6 +134,7 @@ img{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: 250ms var(--animation-cub);
 
     color:var(--hero-text);
 }
@@ -215,6 +216,9 @@ img{
     cursor: pointer;
     }
     
+/* .hero-btm:hover */
+
+
               /* ---------------benefits---------- */
 .benefits{
 padding-top: 94px;
@@ -347,7 +351,6 @@ color: var(--title-color);
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* margin-top: 16px; */
 }
 
 .team-soc-link{
@@ -358,6 +361,7 @@ color: var(--title-color);
     height: 44px;
     border-radius: 50%;
     fill: var(--icon-color);
+    transition: 250ms var(--animation-cub);
 }
 
 .team-soc-link:hover,
@@ -399,6 +403,7 @@ color: var(--title-color);
     border: 1px solid #afb1b8;
     border-radius: 4px;
     fill:var(--icon-color);
+    transition: 250ms var(--animation-cub);
 }
 
 .consumers-link:hover,
@@ -500,6 +505,7 @@ color:var(--title-color-too);
 
     background: rgba(255, 255, 255, 0.1);
     fill: #fff;
+    transition: 250ms var(--animation-cub);
 }
 
 .footer-soc-link:hover,
@@ -541,6 +547,7 @@ color:var(--title-color-too);
     letter-spacing: 0.03em;
     color:var(--title-color);
     cursor: pointer;
+    transition: 250ms var(--animation-cub);
 
     color:var(--title-color);
 }
@@ -592,6 +599,7 @@ color:var(--title-color-too);
 .galery-item{
     width: calc((100% - 60px)/3);
 
+    transition: 250ms var(--animation-cub);
     background:var(--title-color-too);
     border: 1px solid #EEEEEE;
 }
