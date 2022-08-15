@@ -5,8 +5,8 @@
     --color-fone:#2F303A;
     --title-color-too:#FFFFFF;
     --icon-color:#afb1b8;
-    --card-set-gap:
-    margin-left: 30px;
+    --card-set-gap:margin-left: 30px;
+    --animation-cub: cubic-bezier(0.4, 0, 0.2, 1);
 }
 p,h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -87,6 +87,7 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    transition: 250ms var(--animation-cub);
 }
 .header-link:hover,
 .header-link:focus{
