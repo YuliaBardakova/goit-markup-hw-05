@@ -110,17 +110,20 @@ img{
     left: 0;
     bottom: 0;
     border-radius: 2px;
-    /* transform: scaleX(0);
-    opacity: 0; */
+    transform: scaleX(0);
+    opacity: 0;
+
+    background-color 250ms var(--animation-cub);
     transition: transform 250ms var(--animation-cub), 
     opacity 250ms var(--animation-cub),
-    background-color 250ms var(--animation-cub);
+    
 }
 
-.header-link:hover::after {
-    background-color: var(--header-linke-color);
-    transform: scaleX(1);
+.header-link .current:hover::after {
     opacity: 1;
+    transform: scaleX(1);
+
+    background-color: var(--header-linke-color);
     transition: transform 250ms var(--animation-cub), 
     opacity 250ms var(--animation-cub),
     background-color 250ms var(--animation-cub);
@@ -733,6 +736,10 @@ color:var(--title-color-too);
     transform: translate(-50%, -50%) scale(1);
 
     background-color:var(--title-color-too);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
     transition: 250ms var(--animation-cub);
     
 }
