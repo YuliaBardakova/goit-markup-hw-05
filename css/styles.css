@@ -110,8 +110,8 @@ img{
     left: 0;
     bottom: 0;
     border-radius: 2px;
-    transform: scaleX(0);
-    opacity: 0;
+    /* transform: scaleX(0);
+    opacity: 0; */
 
     background-color 250ms var(--animation-cub);
     transition: transform 250ms var(--animation-cub), 
@@ -120,8 +120,8 @@ img{
 }
 
 .header-link .current:hover::after {
-    opacity: 1;
-    transform: scaleX(1);
+    /* opacity: 1;
+    transform: scaleX(1); */
 
     background-color: var(--header-linke-color);
     transition: transform 250ms var(--animation-cub), 
@@ -721,7 +721,6 @@ color:var(--title-color-too);
     top: 0px;
 
     background-color:rgba(0, 0, 0, 0.2);
-    /* border-color: rgba(0, 0, 0, 0.2); */
     transition: opacity 250ms var(--animation-cub),
     visibility 250ms var(--animation-cub);
 }
