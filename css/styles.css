@@ -110,16 +110,15 @@ img{
     left: 0;
     bottom: 0;
     border-radius: 2px;
-    opacity: 0;
-    transform: scaleX(0);
-    
+    /* opacity: 0;
+    transform: scaleX(0); */
     background-color: 250ms var(--animation-cub);
     transition: transform 250ms var(--animation-cub), 
     opacity: 250ms var(--animation-cub),
     
 }
 
-.header-link .current:hover::after{
+/* .header-link .current:hover::after{
     opacity: 1;
     transform: scaleX(1);
 
@@ -129,7 +128,7 @@ img{
     background-color: 250ms var(--animation-cub);
 
 
-}
+} */
 .header-list{
     display: flex;
     margin-left: 93px;
